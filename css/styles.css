@@ -36,7 +36,7 @@ text-align: left;}
 .header-item { color: var(--color-second);
     font-weight: 500;
    }
-.header-nav-link {
+.header-nav-link {font-weight: 500;
 letter-spacing: 0.02em;}
 
 
@@ -128,15 +128,15 @@ line-height:1.17;}
 .footer-link[target="_blank"] {color: var(--first-color);}
 
 
-.button-primary:hover,.button-primary:focus, .all {background-color: var(--bg-btn-color-primary);
-    color:var(--btn-color);}
+
 .button-primary{color: var(--color-second);
 font-weight: 500;
 line-height: 1.63;
 font-size: 16px;
 letter-spacing: 0.03em;
 }
-
+.button-primary:hover,.button-primary:focus, .all {background-color: var(--bg-btn-color-primary);
+    color:var(--btn-color);}
 
 .portfolio-item {
 font-family: inherit;}
